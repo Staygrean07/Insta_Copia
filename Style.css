@@ -157,7 +157,7 @@ body {
     margin-right: 10%;
 }
 
-/* icones de download */
+/* ícones de download */
 
 .download{
     display: flex;
@@ -210,11 +210,9 @@ body {
     .download{
         width: 30rem;
     }
-    
 }
 
 @media screen and (max-width: 630px){
-
     .instagram_wrapper{
         padding-left: 55%;
     }
@@ -226,11 +224,9 @@ body {
     .instagram_phone{
         display: none;
     }
-    
 }
 
-@media screen and (max-width: 592px){
-
+@media screen and (max-width: 720px){
     .instagram_wrapper{
         padding-left: 60%;
     }
@@ -242,5 +238,18 @@ body {
     .instagram_phone{
         display: none;
     }
-    
+}
+
+@media screen and (max-width: 592px){
+    .instagram_wrapper{
+        padding-left: 60%;
+    }
+
+    .instagram_phon{
+        display: none;
+    }
+
+    .instagram_phone{
+        display: none;
+    } 
 }
